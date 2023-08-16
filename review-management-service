@@ -1,1 +1,3 @@
 spring.datasource.url=jdbc:mysql://127.0.0.1:3306/reviewdb
+server.port=8084
+spring.application.name=REVIEW-MANAGEMENT-SERVICE
