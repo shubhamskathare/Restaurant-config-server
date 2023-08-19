@@ -3,7 +3,7 @@ server.port=8084
 spring.application.name=REVIEW-MANAGEMENT-SERVICE
 spring.datasource.username=root
 spring.datasource.password=root
-
+spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
 # The SQL dialect makes Hibernate generate better SQL for the chosen database
 spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL8Dialect
 #spring.jpa.database-platform = org.hibernate.dialect.MySQL8Dialect
